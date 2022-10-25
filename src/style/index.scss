@@ -1,2 +1,7 @@
 @use './normalize.scss' as *;
 @forward './normalize.scss';
+
+#app {
+  width: 100vw;
+  height: 100vh;
+}
