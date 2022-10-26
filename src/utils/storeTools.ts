@@ -1,5 +1,5 @@
 // Pinia store基础集成方法
-import type { IAppStore } from '@/stores';
+import type { IAppStore } from '@/store';
 
 /**
  * 重构$reset()

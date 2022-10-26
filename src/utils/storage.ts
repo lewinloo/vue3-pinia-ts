@@ -1,6 +1,7 @@
 export enum STORAGE_KEY {
   TOKEN = 'token',
-  TIME_STAMP = 'timeStamp'
+  TIME_STAMP = 'timeStamp',
+  THEME = 'theme'
 }
 
 /**

@@ -3,9 +3,9 @@ import { createPinia } from 'pinia';
 
 import App from './App.vue';
 import router from './router';
-import { registerStore } from './stores';
+import { registerStore } from './store';
 
-import '@/style/index.scss';
+import '@/assets/scss/index.scss';
 
 const app = createApp(App);
 

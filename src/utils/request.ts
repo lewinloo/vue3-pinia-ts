@@ -4,7 +4,7 @@ import type { IBaseResponse } from '@/typings';
 import config from '@/config';
 import { getToken } from '@/utils/storage';
 import { isCheckTimeout } from '@/utils/auth';
-import { useUserStore } from '@/stores/user';
+import { useUserStore } from '@/store/user';
 
 const user = useUserStore();
 

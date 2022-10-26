@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router';
 import { darkTheme, NConfigProvider } from 'naive-ui';
-import appStore from './stores';
+import appStore from './store';
 import { storeToRefs } from 'pinia';
 
 const store = appStore.useAppStore;
